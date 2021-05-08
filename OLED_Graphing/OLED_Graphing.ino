@@ -100,7 +100,7 @@ unsigned long counter;
   void loop(void) {
 
   // read some values and convert to volts
-  bvolts = analogRead(A1);
+  bvolts = analogRead(A0);
   volts = (bvolts  / 204.6 ) ;
 
 
